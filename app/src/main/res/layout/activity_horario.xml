@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        
+        android:id="@+id/tv_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Horario"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:columnCount="5"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:rowCount="5"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/Clean"
+
+
+            android:layout_width="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="Lunes"
+            android:textColor="#FF6257"
+            android:textSize="4mm" />
+
+        <TextView
+            android:id="@+id/Divide"
+            android:layout_width="72dp"
+            android:layout_margin="2dp"
+
+            android:text="POO"
+
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Multiplica"
+            android:layout_width="72dp"
+            android:layout_row="0"
+            android:layout_column="2"
+
+            android:layout_margin="2dp"
+            android:text="Martes"
+            android:textColor="#FF6257"
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Borrar"
+            android:layout_width="72dp"
+
+            android:layout_margin="2dp"
+            android:text="BBDD"
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Siete"
+
+
+            android:layout_width="76dp"
+            android:text="Quim"
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Ocho"
+
+
+            android:layout_width="76dp"
+            android:text="Alge"
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Nueve"
+
+            android:layout_width="76dp"
+
+            android:text="Biolo"
+
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Resta"
+            android:layout_width="73dp"
+            android:layout_margin="2dp"
+            android:text="Mierc"
+            android:textColor="#FF6257"
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Cuatro"
+            android:layout_width="69dp"
+            android:layout_margin="2dp"
+
+            android:text="Cal"
+
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Cinco"
+            android:layout_width="71dp"
+            android:layout_margin="2dp"
+
+            android:text="Prog"
+
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Seis"
+            android:layout_width="69dp"
+            android:layout_margin="2dp"
+
+            android:text="Andro"
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Suma"
+            android:layout_width="66dp"
+            android:layout_margin="2dp"
+
+            android:text="Fisi"
+
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Uno"
+            android:layout_width="67dp"
+            android:layout_margin="2dp"
+            android:textColor="#FF6257"
+
+            android:text="Jueves"
+
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Dos"
+            android:layout_width="68dp"
+            android:layout_margin="2dp"
+
+            android:text="algorit"
+
+            android:textSize="2mm" />
+
+        <TextView
+            android:id="@+id/Tres"
+            android:layout_width="68dp"
+            android:layout_margin="2dp"
+
+            android:text="Mat"
+
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Igual"
+            android:layout_width="63dp"
+            android:layout_rowSpan="2"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+
+            android:text="Algrebra"
+
+            android:textSize="3mm" />
+
+        <TextView
+            android:id="@+id/Cero"
+            android:layout_width="65dp"
+            android:textColor="#FF6257"
+            android:layout_columnSpan="2"
+            android:text="Viernes"
+            android:textSize="2mm" />
+
+        <TextView
+            android:id="@+id/Punto"
+            android:layout_width="67dp"
+
+            android:layout_margin="2dp"
+            android:text="Fisica"
+            android:textSize="3mm" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar" />
+
+
+</LinearLayout>
